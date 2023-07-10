@@ -18,10 +18,9 @@ class _FlutterLearnState extends State<FlutterLearn> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: "Flutter Learn",
       theme: ThemeData(),
       getPages: AppPages.routes,
-      initialRoute: AppRoutes.main,
+      initialRoute: AppRoutes.home,
     );
   }
 }
